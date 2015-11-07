@@ -213,14 +213,13 @@ You will show off your project using the mentor's web browser:
     * your grade will suffer _considerably_ if this step doesn't work
 
 1. Your mentor will interact with your application and test the functionality described in Part 1
+    *  Have a number of example interactions prepared ahead of time to show your mentor.  
+       The more you impress your mentor, the better your grade is likely to be.
 
 1. Your mentor may ask to look at your code, so have it available.  
    If the code is on GitHub, then it makes life _much_ easier.
 
 1. The web interface doesn't need to be fancy, however users **should not need to type anything resembling SQL**.
-
-1. Have a number of example interactions prepared ahead of time to show your mentor.  
-   The more you impress your mentor, the better your grade is likely to be.
 
 
 Grading
@@ -252,6 +251,18 @@ Submission
 * Submit your ER diagram and SQL schema print outs at the beginning of lecture.
 * Your changes to the database should be accessible.
 
+Grading will be same as [the grading criteria in Part 2](http://github.com/w4111/proj1part2#grading), 
+but for your extended design instead of the original.
+
+On campus students will present to their project mentor between `11/11` and `11/18`.
+The mentors will email you to schedule a 15 minute meeting by `11/4`.
+Contact your mentor immediately if you have not been contacted by the end of `11/4`.
+
+During the meeting, you will go over the original proposed extensions and go over their implementation, along with 
+the data that  you have generated for the new database.
+
+
+
 <!--
 Follow the [same submission instructions as Part 2](http://github.com/w4111/proj1part2#submit) (this is a foreign reference!)
 with the following differences:
@@ -262,6 +273,4 @@ with the following differences:
 -->
 
 
-Grading will be same as [the grading criteria in Part 2](http://github.com/w4111/proj1part2#grading), 
-but for your extended design instead of the original.
 
