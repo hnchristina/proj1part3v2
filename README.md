@@ -174,10 +174,27 @@ So if this is running on your laptop, you can open you web browser to any of the
         http://127.0.0.1:8111
         http://localhost:8111
 
+You can specify a custom port by passing a host and port as arguments:
+
+        python server.py 0.0.0.0 8888
+
+To see its command line options, use the `--help` flag
+
+        python server.py --help
+
 **note**: This is just a *mild suggestion*, we are not saying you should or must develop this way!
 This is because if you encounter installation or other issues when developing locally, 
 there is so much variety between student computing environments that the staff is ill-equipped to 
 debug every case over email/piazza.  Your best bet is google, office hours, or asking your fellow students on piazza.
+
+
+### Debug Mode
+
+By default, every time you edit your python webapp code, you need to restart the server by pressing `ctrl-c` and re-running `python server.py`.
+Flask can be run in a convenient "debug" mode, which will monitor changes in your files and automatically reload the new code whetever it detects
+a change.  To run the server in debug mode, type:
+
+        python server.py --debug <ANY OTHER PARAMETERS>
 
 ### Deployment
 
