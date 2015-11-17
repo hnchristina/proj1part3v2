@@ -1,23 +1,87 @@
 <html>
-  <style>
-    body{ 
-      font-size: 15pt;
-      font-family: arial;
-    }
-  </style>
-
-
 <body>
-  <h1>Some famous Computer Scientists</h1>
-  <div>{{data}}</div>
-
-  <div>
-    {% for n in data %}
-    <div>{{n}}</div>
-    {% endfor %}
-  </div>
-
+	<h1>Super Sammie has come to the rescue!</h1>
+	<img src = "http://kidu.ca/wp-content/uploads/2014/03/Super-Boys-Clipart-01.jpg" alt = "Super Sammie" height = "100" width = "65">
+	<br>
+	<br>
+	<form action = "http://chn2109.cloudapp.net:8111/results/" method = "POST">
+	<fieldset>
+		<legend>Bread:</legend>
+		<input type = "checkbox" name = "slicedbread" value = "slicedbread">sliced bread<br>
+		<input type = "checkbox" name = "roll" value = "roll">roll<br>
+		<input type = "checkbox" name = "baguette" value = "baguette">baguette<br>
+		<input type = "checkbox" name = "flatbread" value = "flatbread">flat bread<br>
+	</fieldset>
+	<fieldset>
+		<legend>Protein:</legend>
+		<input type = "checkbox" name = "coldcut" value = "coldcut">cold cut<br>
+		<input type = "checkbox" name = "hardboiledegg" value = "hardboiledegg">hard boiled egg<br>
+		<input type = "checkbox" name = "steak" value = "steak">steak<br>
+		<input type = "checkbox" name = "tuna" value = "tuna">tuna<br>
+		<input type = "checkbox" name = "bacon" value = "bacon">bacon<br>
+		<input type = "checkbox" name = "chicken" value = "chicken">chicken<br>
+		<input type = "checkbox" name = "friedegg" value = "friedegg">fried egg<br>
+		<input type = "checkbox" name = "pork" value = "pork">pork<br>
+		<input type = "checkbox" name = "portobello" value = "portobello">portobello<br>
+		<input type = "checkbox" name = "meatball" value = "meatball">meatball<br>
+	</fieldset>
+	<fieldset>
+		<legend>Cheese:</legend>
+		<input type = "checkbox" name = "cheddar" value = "cheddar">cheddar<br>
+		<input type = "checkbox" name = "pepperjack" value = "pepperjack">pepper jack<br>
+		<input type = "checkbox" name = "brie" value = "brie">brie<br>
+		<input type = "checkbox" name = "swiss" value = "swiss">swiss<br>
+		<input type = "checkbox" name = "mozzarella" value = "mozzarella">mozzarella<br>
+		<input type = "checkbox" name = "gouda" value = "gouda">gouda<br>
+		<input type = "checkbox" name = "montereyjack" value = "montereyjack">monterey jack<br>
+		<input type = "checkbox" name = "goat" value = "goat">goat<br>
+		<input type = "checkbox" name = "feta" value = "feta">feta<br>
+		<input type = "checkbox" name = "parmesan" value = "parmesan">parmesan<br>
+	</fieldset>
+	<fieldset>
+		<legend>Vegetable:</legend>
+		<input type = "checkbox" name = "lettuce" value = "lettuce">lettuce<br>
+		<input type = "checkbox" name = "spinach" value = "spinach">spinach<br>
+		<input type = "checkbox" name = "redonion" value = "redonion">red onion<br>
+		<input type = "checkbox" name = "mushroom" value = "mushroom">mushroom<br>
+		<input type = "checkbox" name = "cucumber" value = "cucumber">cucumber<br>
+		<input type = "checkbox" name = "avocado" value = "avocado">avocado<br>
+		<input type = "checkbox" name = "tomato" value = "tomato">tomato<br>
+		<input type = "checkbox" name = "sprouts" value = "sprouts">sprouts<br>
+		<input type = "checkbox" name = "olive" value = "olive">olive<br>
+		<input type = "checkbox" name = "bellpepper" value = "bellpepper">bell pepper<br>
+	</fieldset>
+	<fieldset>
+		<legend>Fruit:</legend>
+		<input type = "checkbox" name = "strawberry" value = "strawberry">strawberry<br>
+		<input type = "checkbox" name = "banana" value = "banana">banana<br>
+		<input type = "checkbox" name = "apple" value = "apple">apple<br>
+		<input type = "checkbox" name = "blueberry" value = "blueberry">blueberry<br>
+		<input type = "checkbox" name = "raspberry" value = "raspberry">raspberry<br>
+		<input type = "checkbox" name = "pear" value = "pear">pear<br>
+	</fieldset>
+	<fieldset>
+		<legend>Condiment:</legend>
+		<input type = "checkbox" name = "ketchup" value = "ketchup">ketchup<br>
+		<input type = "checkbox" name = "mustard" value = "mustard">mustard<br>
+		<input type = "checkbox" name = "mayonnaise" value = "mayonnaise">mayonnaise<br>
+		<input type = "checkbox" name = "pesto" value = "pesto">pesto<br>
+		<input type = "checkbox" name = "jelly" value = "jelly">jelly<br>
+		<input type = "checkbox" name = "peanutbutter" value = "peanutbutter">peanut butter<br>
+		<input type = "checkbox" name = "hummus" value = "hummus">hummus<br>
+		<input type = "checkbox" name = "sriracha" value = "sriracha">sriracha<br>
+		<input type = "checkbox" name = "barbecue" value = "barbecue">barbecue<br>
+		<input type = "checkbox" name = "oliveoil" value = "oliveoil">olive oil<br>
+	</fieldset>
+	<fieldset>
+		<legend>Other:</legend>
+		<input type = "checkbox" name = "chips" value = "chips">chips<br>
+		<input type = "checkbox" name = "pickle" value = "pickle">pickle<br>
+		<input type = "checkbox" name = "jalapeno" value = "jalapeno">jalapeno<br>
+		<input type = "checkbox" name = "fries" value = "fries">fries<br>
+	</fieldset>
+	<br>
+	<input type = "submit" value = "Submit">
+	</form>
 </body>
-
-
 </html>
